@@ -9,6 +9,8 @@ public interface ArticleService {
     List<Article> retrieveAllArticles();
 
     Article retrieveArticleById(final Long id) throws ElementNotFound;
+    
+    List<Article> retrieveArticleByTitle (final String title) throws ElementNotFound;
 
     Article saveArticle(Article article);
 

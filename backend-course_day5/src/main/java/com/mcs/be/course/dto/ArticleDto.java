@@ -2,6 +2,7 @@ package com.mcs.be.course.dto;
 
 
 import java.io.Serializable;
+import java.math.BigDecimal;
 
 public class ArticleDto implements Serializable {
 
@@ -9,17 +10,19 @@ public class ArticleDto implements Serializable {
     private String title;
     private String picture;
     private String plot;
+    private BigDecimal cost;
     private String tag;
     private Boolean like;
 
     public ArticleDto() {
     }
 
-    public ArticleDto(Long id, String title, String picture, String plot, String tag, Boolean like) {
+    public ArticleDto(Long id, String title, String picture, String plot, BigDecimal cost, String tag, Boolean like) {
         this.id = id;
         this.title = title;
         this.picture = picture;
         this.plot = plot;
+        this.cost=cost;
         this.tag = tag;
         this.like = like;
     }
@@ -72,5 +75,13 @@ public class ArticleDto implements Serializable {
         this.like = like;
     }
 
+	public BigDecimal getCost() {
+		return cost;
+	}
 
+	public void setCost(BigDecimal cost) {
+		this.cost = cost;
+	}
+
+    
 }

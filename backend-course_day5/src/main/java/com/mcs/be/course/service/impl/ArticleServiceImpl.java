@@ -90,4 +90,15 @@ public class ArticleServiceImpl implements ArticleService {
 
         return entity;
     }
+
+	@Override
+	public List<Article> retrieveArticleByTitle(String title) throws ElementNotFound {
+		List<Article> article = articleDao.findByTitleIsLike(title);
+
+        if (article == null) {
+            throw new ElementNotFound("Article with title " + title + " not exist");
+        }
+
+        return article;
+	}
 }
