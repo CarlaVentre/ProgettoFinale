@@ -1,0 +1,17 @@
+[INFO ] 2018-03-28 13:20:23.576 [main] BackendCourseApplication - Starting BackendCourseApplication on ITEM-S36432 with PID 5244 (D:\ProgettoFinale\ProgettoFinale\backend-course_day5\target\classes started by soprasteria in D:\ProgettoFinale\ProgettoFinale\backend-course_day5)
+[DEBUG] 2018-03-28 13:20:23.592 [main] BackendCourseApplication - Running with Spring Boot v1.5.9.RELEASE, Spring v4.3.13.RELEASE
+[INFO ] 2018-03-28 13:20:23.592 [main] BackendCourseApplication - No active profile set, falling back to default profiles: default
+[INFO ] 2018-03-28 13:23:57.887 [main] BackendCourseApplication - Starting BackendCourseApplication on ITEM-S36432 with PID 5496 (D:\ProgettoFinale\ProgettoFinale\backend-course_day5\target\classes started by soprasteria in D:\ProgettoFinale\ProgettoFinale\backend-course_day5)
+[DEBUG] 2018-03-28 13:23:57.887 [main] BackendCourseApplication - Running with Spring Boot v1.5.9.RELEASE, Spring v4.3.13.RELEASE
+[INFO ] 2018-03-28 13:23:57.887 [main] BackendCourseApplication - No active profile set, falling back to default profiles: default
+[INFO ] 2018-03-28 13:25:41.814 [main] BackendCourseApplication - Starting BackendCourseApplication on ITEM-S36432 with PID 4836 (D:\ProgettoFinale\ProgettoFinale\backend-course_day5\target\classes started by soprasteria in D:\ProgettoFinale\ProgettoFinale\backend-course_day5)
+[DEBUG] 2018-03-28 13:25:41.814 [main] BackendCourseApplication - Running with Spring Boot v1.5.9.RELEASE, Spring v4.3.13.RELEASE
+[INFO ] 2018-03-28 13:25:41.814 [main] BackendCourseApplication - No active profile set, falling back to default profiles: default
+[INFO ] 2018-03-28 13:25:46.634 [main] BackendCourseApplication - Started BackendCourseApplication in 5.029 seconds (JVM running for 6.032)
+[INFO ] 2018-03-28 15:10:02.295 [main] BackendCourseApplication - Starting BackendCourseApplication on ITEM-S36432 with PID 5828 (D:\ProgettoFinale\ProgettoFinale\backend-course_day5\target\classes started by soprasteria in D:\ProgettoFinale\ProgettoFinale\backend-course_day5)
+[DEBUG] 2018-03-28 15:10:02.295 [main] BackendCourseApplication - Running with Spring Boot v1.5.9.RELEASE, Spring v4.3.13.RELEASE
+[INFO ] 2018-03-28 15:10:02.295 [main] BackendCourseApplication - No active profile set, falling back to default profiles: default
+[INFO ] 2018-03-28 15:10:07.149 [main] BackendCourseApplication - Started BackendCourseApplication in 5.051 seconds (JVM running for 6.193)
+[INFO ] 2018-03-28 15:13:13.270 [main] BackendCourseApplication - Starting BackendCourseApplication on ITEM-S36432 with PID 9044 (D:\ProgettoFinale\ProgettoFinale\backend-course_day5\target\classes started by soprasteria in D:\ProgettoFinale\ProgettoFinale\backend-course_day5)
+[DEBUG] 2018-03-28 15:13:13.270 [main] BackendCourseApplication - Running with Spring Boot v1.5.9.RELEASE, Spring v4.3.13.RELEASE
+[INFO ] 2018-03-28 15:13:13.270 [main] BackendCourseApplication - No active profile set, falling back to default profiles: default
