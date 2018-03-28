@@ -44,6 +44,10 @@ public class RestArticleController {
     	return articleFacade.retrieveArticleById(id);
     }
     
+    @RequestMapping(value="/find", method= RequestMethod.GET)
+    public List<ArticleDto>  retrieveArticleByTitle(@RequestParam ("by") String title) throws ElementNotFound{
+    	return articleFacade.retrieveByTitle(title);
+    }
     
     //TODO create method that responds to /articles/like in PATCH receiving a json like {"id" : 1} and returning a ArticleDto after updating his like value
     //RequestBody, cerca PathVariables per indicazione sul value, usare int 
@@ -57,4 +61,6 @@ public class RestArticleController {
     public ArticleDto createOrUpdateAssignment(@RequestBody ArticleDto assignmentDto) throws ElementNotFound {
     	return articleFacade.saveOrUpdate(assignmentDto);
     }
+    
+    
 }

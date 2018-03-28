@@ -41,7 +41,8 @@ public class ArticleFacadeImpl implements ArticleFacade {
     public ArticleDto retrieveArticleById(Long id) throws ElementNotFound {
         Article article = articleService.retrieveArticleById(id);
         return mapperFacade.map(article, ArticleDto.class);
-    }
+    } 
+    
 
     @Override
     public ArticleDto saveOrUpdate(ArticleDto articleDto) throws ElementNotFound {
@@ -62,6 +63,16 @@ public class ArticleFacadeImpl implements ArticleFacade {
         Article article = articleService.addLikeToArticle(id);
         return mapperFacade.map(article, ArticleDto.class);
     }
+
+	@Override
+	public List<ArticleDto> retrieveByTitle(String title) throws ElementNotFound {
+		List<Article> articles = articleService.retrieveArticleByTitle(title);
+		 List<ArticleDto> articleDtoList = articles.stream()
+	                .map(a -> mapperFacade.map(a,ArticleDto.class))
+	                .collect(Collectors.toList());
+		 
+		 return articleDtoList;
+	}
     
  
 }
