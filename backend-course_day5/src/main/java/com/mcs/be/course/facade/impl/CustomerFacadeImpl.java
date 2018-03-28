@@ -8,6 +8,7 @@ import com.mcs.be.course.exception.CustomerNotFound;
 import com.mcs.be.course.facade.CustomerFacade;
 import com.mcs.be.course.model.Customer;
 import com.mcs.be.course.service.CustomerService;
+import com.mcs.be.course.service.SessionService;
 
 import ma.glasnost.orika.MapperFacade;
 
@@ -18,11 +19,16 @@ public class CustomerFacadeImpl implements CustomerFacade {
 	private CustomerService customerService;
 	
 	@Autowired
+	private SessionService sessionService;
+	
+	@Autowired
 	private MapperFacade mapperFacade;
 
 	@Override
 	public CustomerDto login(CustomerDto userDto) throws CustomerNotFound {
 		Customer customer = customerService.login(userDto.getId(), userDto.getPassword());
+		if (customer != null) 
+			sessionService.saveCustomer(mapperFacade.map(customer, CustomerDto.class));
 		return mapperFacade.map(customer, CustomerDto.class);
 	}
 
@@ -33,4 +39,16 @@ public class CustomerFacadeImpl implements CustomerFacade {
 		return mapperFacade.map(customer, CustomerDto.class);
 	}
 
+	@Override
+	public void logout() {
+		if (sessionService.retrieveCustomer() != null)
+			sessionService.removeCustomer();
+		
+	}
+
+	@Override
+	public CustomerDto retrieveSessionUser() {
+		return sessionService.retrieveCustomer();
+	}
+	
 }

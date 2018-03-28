@@ -9,7 +9,7 @@ import java.math.BigDecimal;
 public class Article implements Serializable{
 
     @Id
-    @GeneratedValue(strategy= GenerationType.AUTO)
+    @GeneratedValue(strategy=GenerationType.AUTO)
     @Column(nullable = false)
     private Long id;
 

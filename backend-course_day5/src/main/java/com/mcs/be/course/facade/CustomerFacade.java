@@ -8,4 +8,8 @@ public interface CustomerFacade {
 	CustomerDto login(CustomerDto userDto) throws CustomerNotFound;
 	
 	CustomerDto register(CustomerDto userDto);
+	
+	void logout();
+	
+	CustomerDto retrieveSessionUser();
 }

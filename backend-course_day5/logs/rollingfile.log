@@ -21,3 +21,31 @@
 [DEBUG] 2018-03-28 15:25:01.090 [main] BackendCourseApplication - Running with Spring Boot v1.5.9.RELEASE, Spring v4.3.13.RELEASE
 [INFO ] 2018-03-28 15:25:01.091 [main] BackendCourseApplication - No active profile set, falling back to default profiles: default
 [INFO ] 2018-03-28 15:25:07.687 [main] BackendCourseApplication - Started BackendCourseApplication in 6.896 seconds (JVM running for 8.06)
+[INFO ] 2018-03-28 18:25:53.835 [main] BackendCourseApplication - Starting BackendCourseApplication on ANGELO-PC with PID 8360 (started by Angelo Manganiello in C:\Users\Angelo Manganiello\Documents\UIIP\progetto finale\ProgettoFinale\backend-course_day5)
+[DEBUG] 2018-03-28 18:25:53.846 [main] BackendCourseApplication - Running with Spring Boot v1.5.9.RELEASE, Spring v4.3.13.RELEASE
+[INFO ] 2018-03-28 18:25:53.847 [main] BackendCourseApplication - No active profile set, falling back to default profiles: default
+[INFO ] 2018-03-28 18:25:59.355 [main] BackendCourseApplication - Started BackendCourseApplication in 5.734 seconds (JVM running for 6.86)
+[INFO ] 2018-03-28 18:30:49.978 [main] BackendCourseApplication - Starting BackendCourseApplication on ANGELO-PC with PID 632 (started by Angelo Manganiello in C:\Users\Angelo Manganiello\Documents\UIIP\progetto finale\ProgettoFinale\backend-course_day5)
+[DEBUG] 2018-03-28 18:30:49.984 [main] BackendCourseApplication - Running with Spring Boot v1.5.9.RELEASE, Spring v4.3.13.RELEASE
+[INFO ] 2018-03-28 18:30:49.984 [main] BackendCourseApplication - No active profile set, falling back to default profiles: default
+[INFO ] 2018-03-28 18:30:55.514 [main] BackendCourseApplication - Started BackendCourseApplication in 5.758 seconds (JVM running for 6.9)
+[INFO ] 2018-03-28 20:54:02.471 [main] BackendCourseApplication - Starting BackendCourseApplication on ANGELO-PC with PID 5148 (started by Angelo Manganiello in C:\Users\Angelo Manganiello\Documents\UIIP\progetto finale\ProgettoFinale\backend-course_day5)
+[DEBUG] 2018-03-28 20:54:02.482 [main] BackendCourseApplication - Running with Spring Boot v1.5.9.RELEASE, Spring v4.3.13.RELEASE
+[INFO ] 2018-03-28 20:54:02.483 [main] BackendCourseApplication - No active profile set, falling back to default profiles: default
+[INFO ] 2018-03-28 20:54:09.463 [main] BackendCourseApplication - Started BackendCourseApplication in 7.246 seconds (JVM running for 8.557)
+[INFO ] 2018-03-28 21:01:15.355 [main] BackendCourseApplication - Starting BackendCourseApplication on ANGELO-PC with PID 6228 (started by Angelo Manganiello in C:\Users\Angelo Manganiello\Documents\UIIP\progetto finale\ProgettoFinale\backend-course_day5)
+[DEBUG] 2018-03-28 21:01:15.360 [main] BackendCourseApplication - Running with Spring Boot v1.5.9.RELEASE, Spring v4.3.13.RELEASE
+[INFO ] 2018-03-28 21:01:15.360 [main] BackendCourseApplication - No active profile set, falling back to default profiles: default
+[INFO ] 2018-03-28 21:01:20.852 [main] BackendCourseApplication - Started BackendCourseApplication in 5.765 seconds (JVM running for 7.178)
+[INFO ] 2018-03-28 21:41:12.634 [main] BackendCourseApplication - Starting BackendCourseApplication on ANGELO-PC with PID 9256 (started by Angelo Manganiello in C:\Users\Angelo Manganiello\Documents\UIIP\progetto finale\ProgettoFinale\backend-course_day5)
+[DEBUG] 2018-03-28 21:41:12.641 [main] BackendCourseApplication - Running with Spring Boot v1.5.9.RELEASE, Spring v4.3.13.RELEASE
+[INFO ] 2018-03-28 21:41:12.642 [main] BackendCourseApplication - No active profile set, falling back to default profiles: default
+[INFO ] 2018-03-28 21:41:19.785 [main] BackendCourseApplication - Started BackendCourseApplication in 7.488 seconds (JVM running for 9.029)
+[INFO ] 2018-03-28 21:51:09.327 [main] BackendCourseApplication - Starting BackendCourseApplication on ANGELO-PC with PID 12000 (started by Angelo Manganiello in C:\Users\Angelo Manganiello\Documents\UIIP\progetto finale\ProgettoFinale\backend-course_day5)
+[DEBUG] 2018-03-28 21:51:09.337 [main] BackendCourseApplication - Running with Spring Boot v1.5.9.RELEASE, Spring v4.3.13.RELEASE
+[INFO ] 2018-03-28 21:51:09.337 [main] BackendCourseApplication - No active profile set, falling back to default profiles: default
+[INFO ] 2018-03-28 21:51:14.858 [main] BackendCourseApplication - Started BackendCourseApplication in 5.746 seconds (JVM running for 7.217)
+[INFO ] 2018-03-28 21:53:10.441 [main] BackendCourseApplication - Starting BackendCourseApplication on ANGELO-PC with PID 8008 (started by Angelo Manganiello in C:\Users\Angelo Manganiello\Documents\UIIP\progetto finale\ProgettoFinale\backend-course_day5)
+[DEBUG] 2018-03-28 21:53:10.453 [main] BackendCourseApplication - Running with Spring Boot v1.5.9.RELEASE, Spring v4.3.13.RELEASE
+[INFO ] 2018-03-28 21:53:10.453 [main] BackendCourseApplication - No active profile set, falling back to default profiles: default
+[INFO ] 2018-03-28 21:53:16.004 [main] BackendCourseApplication - Started BackendCourseApplication in 5.77 seconds (JVM running for 7.084)
