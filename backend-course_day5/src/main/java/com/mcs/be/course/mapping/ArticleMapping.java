@@ -14,7 +14,7 @@ public class ArticleMapping implements OrikaMapperFactoryConfigurer {
                 .field("image", "picture")
                 .field("content", "plot")
                 .field("approve", "like")
-                //TODO add correct missing mapping of like value
+                .field("price", "cost")
                 .byDefault()
                 .mapNulls(false)
                 .mapNullsInReverse(true)
