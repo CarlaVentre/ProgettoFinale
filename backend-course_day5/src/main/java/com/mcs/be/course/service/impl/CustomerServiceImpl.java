@@ -15,7 +15,7 @@ public class CustomerServiceImpl implements CustomerService {
 	private CustomerDao customerDao;
 
 	@Override
-	public Customer retrieveUserById(final Long id) throws CustomerNotFound {
+	public Customer retrieveUserById(final String id) throws CustomerNotFound {
 		Customer customer = customerDao.findOne(id);
 		
 		if (customer == null) {
@@ -25,7 +25,7 @@ public class CustomerServiceImpl implements CustomerService {
 	}
 
 	@Override
-	public Customer login(Long id, String password) throws CustomerNotFound {
+	public Customer login(String id, String password) throws CustomerNotFound {
 		Customer customer = this.retrieveUserById(id);
 		if (customer == null) {
 			throw new CustomerNotFound("Customer with id " + id + " not exists");

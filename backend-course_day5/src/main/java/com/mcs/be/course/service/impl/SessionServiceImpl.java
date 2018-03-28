@@ -9,7 +9,7 @@ import com.mcs.be.course.service.SessionService;
 @Service
 public class SessionServiceImpl implements SessionService {
 
-	private SessionDto sessionDto;
+	private SessionDto sessionDto = new SessionDto();
 	
 	@Override
 	public CustomerDto retrieveCustomer(){

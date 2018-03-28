@@ -3,7 +3,7 @@ package com.mcs.be.course.dto;
 import java.io.Serializable;
 
 public class CustomerDto implements Serializable{
-	private Long id;
+	private String id;
 	private String firstName;
 	private String lastName;
 	private String password;
@@ -13,7 +13,7 @@ public class CustomerDto implements Serializable{
 
 	}
 
-	public CustomerDto(Long id, String firstName, String lastName, String password, Long cartId) {
+	public CustomerDto(String id, String firstName, String lastName, String password, Long cartId) {
 		this.id = id;
 		this.firstName = firstName;
 		this.lastName = lastName;
@@ -21,11 +21,11 @@ public class CustomerDto implements Serializable{
 		this.cartId = cartId;
 	}
 
-	public Long getId() {
+	public String getId() {
 		return id;
 	}
 
-	public void setId(Long id) {
+	public void setId(String id) {
 		this.id = id;
 	}
 

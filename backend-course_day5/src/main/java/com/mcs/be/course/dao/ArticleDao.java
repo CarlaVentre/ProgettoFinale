@@ -9,5 +9,6 @@ import java.util.List;
 @Repository
 public interface ArticleDao extends JpaRepository<Article, Long> {
 	
-	List<Article> findByTitleIsLike(String title);
+	List<Article> findByTitleContaining(String title);
+	
 }
