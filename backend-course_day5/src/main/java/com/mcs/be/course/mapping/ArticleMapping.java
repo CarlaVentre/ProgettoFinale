@@ -13,6 +13,7 @@ public class ArticleMapping implements OrikaMapperFactoryConfigurer {
         orikaMapperFactory.classMap(Article.class, ArticleDto.class)
                 .field("image", "picture")
                 .field("content", "plot")
+                .field("approve", "like")
                 //TODO add correct missing mapping of like value
                 .byDefault()
                 .mapNulls(false)
