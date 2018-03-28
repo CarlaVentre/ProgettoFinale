@@ -10,6 +10,8 @@ public interface ArticleFacade {
     List<ArticleDto> retrieveAllArticles();
 
     ArticleDto retrieveArticleById(Long id) throws ElementNotFound;
+    
+    List<ArticleDto> retrieveByTitle(String title) throws ElementNotFound;
 
     ArticleDto saveOrUpdate(ArticleDto articleDto) throws ElementNotFound;
 
