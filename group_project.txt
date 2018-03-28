@@ -1,0 +1,50 @@
+OBIETTIVI:
+- Controller REST Login funzionante
+	- Entity User
+		- id
+		- first name
+		- last name
+		- password
+		- cartId
+	- UserDto
+	- UserService
+		- login(id, password):UserDto
+		- register(UserDto):UserDto
+	- UserFacade
+		- login(UserDto)
+		- register(UserDto)
+- Controller REST Registrazione funzionante
+- Controller REST Ricerca articolo per name (uso di "LIKE")
+	- ArticleFacade, ArticleService, ArticleDao (nuova @Query)
+- Controller REST logout funzionante
+	- SessionDto
+		- currentUser (UserDto)
+	- SessionService
+
+Tutti i controller anche in versione non-rest (forse le MvcConfig cambiano tra progetti..)
+	
+- Aggiungere BigDecimal price ad Article e ArticleDto
+
+- CartController REST ("/cart")
+	- getCart
+	- addToCart (articleId, [quantity]) ("/cart/add")
+	-removeFromCart
+	- Entity Cart
+		- id
+		- userId
+	- Entity CartEntry
+		- cartId
+		- articleId
+		- quantity
+		- unitPrice
+	- CartEntryDto
+		- anche campo "totalPrice" (quantity * unitPrice) (configurare OrikaMapper per farlo)
+	- CartDao
+	- CartService
+		- getCartForUser(UserDto):CartDto
+		- addToCart(CartDto, ArticleDto, quantity)
+		- removeFromCart(CartDto, ArticleDto, quantity)
+	- CartFacade
+		- addToCart(articleId, quantity) (deve funzionare solo se utente loggato (altrimenti a quale carrello faremmo add?) (deve funzionare solo se Article price != null)
+		- removeFromCart(articleId)
+		- removeFromCart(articleId, quantity)

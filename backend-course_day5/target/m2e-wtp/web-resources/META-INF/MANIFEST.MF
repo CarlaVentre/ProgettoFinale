@@ -1,0 +1,10 @@
+Manifest-Version: 1.0
+Implementation-Title: backend-course day 5
+Implementation-Version: 0.0.1-SNAPSHOT
+Built-By: soprasteria
+Implementation-Vendor-Id: com.mcs.be.course
+Build-Jdk: 1.8.0_162
+Implementation-URL: 
+Created-By: Maven Integration for Eclipse
+Implementation-Vendor: 
+
