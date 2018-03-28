@@ -2,18 +2,18 @@ package com.mcs.be.course.dto;
 
 import java.io.Serializable;
 
-public class UserDto implements Serializable{
+public class CustomerDto implements Serializable{
 	private Long id;
 	private String firstName;
 	private String lastName;
 	private String password;
 	private Long cartId;
 	
-	public UserDto() {
+	public CustomerDto() {
 
 	}
 
-	public UserDto(Long id, String firstName, String lastName, String password, Long cartId) {
+	public CustomerDto(Long id, String firstName, String lastName, String password, Long cartId) {
 		this.id = id;
 		this.firstName = firstName;
 		this.lastName = lastName;
